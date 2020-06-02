@@ -3,6 +3,7 @@
 ## React: 
 - npx create-react-app web --template=typescript
 ## NodeJS - dentro da pasta Server: npm init -y, 
+- npm init -y
 - npm install express,
 - npm install @types/express -D,
 - npm install ts-node -D,
