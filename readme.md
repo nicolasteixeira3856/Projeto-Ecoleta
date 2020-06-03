@@ -2,6 +2,17 @@
 
 ## React: 
 - npx create-react-app web --template=typescript
+- npm start
+- npm install react-icons
+- npm install react-router-dom
+- npm install @types/react-router-dom -D
+- npm install leaflet react-leaflet
+- npm install @types/react-leaflet -D
+- npm install axios
+
+A library https://leafletjs.com foi utilizada para integração de mapas de forma gratuita
+A API do IBGE https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-_ foi utilizada para pegar estados e cidades do Brasil
+
 ## NodeJS - dentro da pasta Server:
 - npm init -y
 - npm install express,
