@@ -1,4 +1,4 @@
-# Comandos executados na aula:
+# Comandos executados:
 
 ## React: 
 - npx create-react-app web --template=typescript
