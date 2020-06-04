@@ -1,4 +1,4 @@
-# Comandos executados:
+# Comandos executados na aula:
 
 ## NodeJS: 
 - npm init -y
