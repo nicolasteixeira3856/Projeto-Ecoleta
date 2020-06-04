@@ -1,18 +1,5 @@
 # Comandos executados na aula:
 
-## React: 
-- npx create-react-app web --template=typescript
-- npm start
-- npm install react-icons
-- npm install react-router-dom
-- npm install @types/react-router-dom -D
-- npm install leaflet react-leaflet
-- npm install @types/react-leaflet -D
-- npm install axios
-
-A library https://leafletjs.com foi utilizada para integração de mapas de forma gratuita  
-A API do IBGE https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-_ foi utilizada para pegar estados e cidades do Brasil
-
 ## NodeJS: 
 - npm init -y
 - npm install express,
@@ -40,5 +27,37 @@ Adicionando também ao NodeJS o comando de dev, knex:migrate, knex:seed no packa
     "knex:seed": "knex --knexfile knexfile.ts seed:run"
   },
 ```
+
+## React: 
+- npx create-react-app web --template=typescript
+- npm start
+- npm install react-icons
+- npm install react-router-dom
+- npm install @types/react-router-dom -D
+- npm install leaflet react-leaflet
+- npm install @types/react-leaflet -D
+- npm install axios
+
+A library https://leafletjs.com foi utilizada para integração de mapas de forma gratuita  
+A API do IBGE https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-_ foi utilizada para pegar estados e cidades do Brasil
+
+## React Native - Expo: 
+- sudo npm install -g expo-cli
+- expo init mobile-expo-react
+- cd mobile-expo-react/
+- npm start
+- expo install @expo-google-fonts/roboto @expo-google-fonts/ubuntu expo-font
+- npm install @react-navigation/native
+- expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+- npm install @react-navigation/stack
+- expo install react-native-maps
+- expo install expo-constants
+- expo install react-native-svg
+- npm install axios
+- expo install expo-location
+- expo install expo-mail-composer
+- npm install react-native-picker-select
+
+Foi utilizado o aplicativo Expo no celular com a leitura do QRCode para fins de teste da aplicação durante o desenvolvimento
 
 O programa Insomnia foi utilizado para teste das rotas da aplicação de back-end feita em NodeJS
