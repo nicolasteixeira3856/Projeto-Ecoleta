@@ -13,7 +13,11 @@
 - npm install knex
 - npx knex --knexfile knexfile.ts migrate:latest para a criação das migrations
 - npx knex --knexfile knexfile.ts seed:run para os seeds do banco de dados
-- npm install cors para a configuração de cors no app
+- npm install cors - para a configuração de cors no app
+- npm install multer - para upload de imagens
+- npm install @types/multer
+- npm install celebrate
+- npm install @types/hapi__joi
 
 ## Atenção para todos os scripts para execução adicionadas no package.json
 
@@ -37,6 +41,7 @@ Adicionando também ao NodeJS o comando de dev, knex:migrate, knex:seed no packa
 - npm install leaflet react-leaflet
 - npm install @types/react-leaflet -D
 - npm install axios
+- npm install react-dropzone
 
 A library https://leafletjs.com foi utilizada para integração de mapas de forma gratuita  
 A API do IBGE https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-_ foi utilizada para pegar estados e cidades do Brasil
